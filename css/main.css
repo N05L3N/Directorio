@@ -1,0 +1,142 @@
+body {
+	width: 100%;
+	background: linear-gradient(#ddd,#eee,#fff);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	font-family: calibri, arial;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+/* Login */
+
+#bienvenida {
+	font-size: 17px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+form {
+	margin-top: 30px;
+	width: 100%;
+}
+
+table {
+	width: 100%;
+}
+
+#readonly {
+	color: DarkGray;
+	font-style: italic;
+}
+
+
+#boton {
+	margin-left: auto;
+	margin-top: 15px; 
+	margin-right: auto;
+	display: block;
+	background-color: #5086d8;
+	color: white;
+	padding: 8px;
+	font-style: italic;
+	border: none;
+}
+
+#boton:hover {
+	background-color: #255bae;
+}
+
+#campo {
+	width: 150px;
+}
+
+#login {
+	background-color: White;
+	border: solid 10px black;
+	box-shadow: 0px 5px 50px white;
+	border-radius: 20px;
+	padding: 20px;
+	margin: auto;
+	width: 500px;
+}
+/* Bajas */
+#bajas {
+	background-color: White;
+	border: solid 10px black;
+	box-shadow: 0px 5px 50px white;
+	border-radius: 20px;
+	padding: 20px;
+	margin: auto;
+	width: 500px;
+}
+
+#bajas ul {
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+#bajas ul li {
+	margin-bottom: -35px;
+}
+
+
+#bajas table.lista {
+	border: solid DarkGray 1px;
+	margin: 0px;
+	width: 100%;
+}
+
+#bajas table.lista td.nombre {
+	width: 75%;
+}
+
+#bajas table.lista td.accione {
+	width: 25%;
+}
+
+#bajas input.baja {
+	background-color: FireBrick;
+	border: none;
+	border-radius: 20px;
+	color: White;
+	cursor: pointer;
+}
+
+#bajas input.alta {
+	background-color: Green;
+	border: none;
+	border-radius: 20px;
+	color: White;
+	cursor: pointer;
+}
+
+
+/* Bajas */
+
+#panel {
+	background-color: White;
+	border: solid 10px black;
+	box-shadow: 0px 5px 50px white;
+	border-radius: 20px;
+	padding: 20px;
+	margin: auto;
+	width: 500px;
+}
+
+div.spacer {
+	height: 100px;
+}
+
+label {
+	font-family: arial;
+}
+
+fieldset {
+	margin: 10px;
+}
+
+legend {
+	font-size: 20px;
+	font-weight: bold;
+}

@@ -1,0 +1,127 @@
+#consultas-todos {
+	/*background-color: Azure ; */
+	font-size: 13px;
+	font-family: calibri;
+	display: inline-block;
+	vertical-align: top;
+	width: 48%;
+}
+
+#consultas-todos table {
+	background-color: White;
+	border: 1px solid black;
+	margin-left: 250px;
+	margin-bottom: 25px;
+	width: 800px;
+}
+
+#consultas-todos th {
+	border: 1px solid gray;
+	background-color: #00b0f0;
+}
+
+
+#consultas-todos th.nombre {
+	width: 200px;
+}
+
+#consultas-todos th.ext {
+	width: 50px;
+}
+
+#consultas-todos th.puesto {
+	width: 150px;
+}
+
+#consultas-todos td {
+	border: 1px solid Lavender ;
+	padding: 1px;
+}
+
+#consultas-todos tr:hover td {
+	background-color: Lavender;
+}
+
+#consultas-todos div.info-indice {
+	background-color:#00b0f0;
+	color:#ffffff;
+	font-weight:bold;
+	margin-left:0px;
+	padding: 2px;
+	float:left;
+	width:15px;
+	height:15px;
+	text-align: center;
+	font-size:14px;
+}
+
+
+/**/
+#consultas-departamento {
+	/*background-color: Beige ;*/
+	float: right;
+	font-size: 13px;
+	font-family: calibri;
+	display: inline-block;
+	vertical-align: top;
+	width: 48%;
+}
+
+#consultas-departamento table {
+	background-color: White;
+	border: 1px solid black;
+	margin-left: 200px;
+	margin-bottom: 25px;
+	width: 400px;
+}
+
+#consultas-departamento th {
+	border: 1px solid gray;
+	background-color: #00b0f0;
+}
+
+
+#consultas-departamento th.nombre {
+	width: 200px;
+}
+
+#consultas-departamento th.ext {
+	width: 50px;
+}
+
+#consultas-departamento th.puesto {
+	width: 150px;
+}
+
+#consultas-departamento td {
+	border: 1px solid Lavender ;
+	padding: 1px;
+}
+
+#consultas-departamento tr:hover td {
+	background-color: Lavender;
+}
+
+#consultas-departamento div.info-indice {
+	background-color:#00b0f0;
+	color:#ffffff;
+	font-weight:bold;
+	margin-left:0px;
+	padding: 2px;
+	float:left;
+	width:15px;
+	height:15px;
+	text-align: center;
+	font-size:14px;
+}
+
+#info {
+	background-color:LimeGreen ;
+	color:#fff;
+	display:block;
+	opacity:.8;
+	padding: 5px;
+	vertical-align: middle;
+	margin-bottom: 0px;
+	width:100%;
+}
